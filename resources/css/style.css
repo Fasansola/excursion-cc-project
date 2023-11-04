@@ -1,0 +1,71 @@
+html {
+    color: white;
+    font-family: verdana;
+    text-align: center;
+    font-size: 10px;
+}
+
+.body {
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    overflow-x: hidden;
+}
+
+.body main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+
+.body h1 {
+    font-size: 5rem;
+    font-weight: 300;
+}
+
+.body h2 {
+    font-size: 4.2rem;
+    font-weight: 300;
+}
+
+video {
+    margin-top: 30px;
+    width: 100%;
+    max-width: 40rem;
+    height: auto;
+    align-items: center;
+}
+
+p {
+    font-size: 2.1rem;
+    color: gray;
+}
+
+.body a {
+    font-size: 1.6rem;
+    color: aquamarine;
+}
+
+.body .icon {
+    width: 70px;
+    height: auto;
+    margin-top: 30px;
+}
+
+footer {
+    height: 80px;
+    display: flex;
+    justify-content: flex-end;
+    align-content: center;
+    width: 100%;
+    padding-right: 20px;
+}
+
+footer h5 {
+    font-size: 2.1rem;
+    color: gray;
+    text-align: right;
+    font-weight: 300;
+}
